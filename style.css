@@ -1,0 +1,25 @@
+body {
+    background-color: #404040;
+    padding-top: 40px;
+}
+
+#main-content {
+    color: white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #bfbfbf;
+}
+
+#social {
+    text-align: right;
+}
+
+#about-card {
+    text-align: justify;
+    background-color: #262626;
+    border: 0;
+}
