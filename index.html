@@ -11,7 +11,7 @@
 
     <title>Urban Hair Hub</title>
   </head>
-  <body>
+  <body id="home">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="order-1 navbar-brand" id="social">
@@ -33,13 +33,13 @@
                 <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#artists">Artists</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
             </ul>
         </div>
@@ -48,9 +48,9 @@
 
     <!-- JUMBOTRON -->
     <div class="jumbotron jumbotron-fluid text-center">
-        <div class="container">
-            <h1 class="display-3 d-md-none">UHH</h1>
-            <h1 class="display-3 d-none d-md-block">Urban Hair Hub</h1>
+        <div class="container title-container">
+            <h1 class="display-3 d-md-none title">UHH</h1>
+            <h1 class="display-3 d-none d-md-block title">Urban Hair Hub</h1>
             <p class="lead">Shelbyville, IN's premier Hair Salon & Barber Shop!</p>
         </div>
     </div>
@@ -60,7 +60,7 @@
     <div class="container text-center" id="main-content">
             <div class="row container mx-auto">
               <!-- about -->
-              <div class="col-sm-12 col-lg-12 container">
+              <div class="col-sm-12 container" id="about">
                 <h3 class="mb-3">About</h3>
                     <div class="mx-auto row">
                         <div class="card mb-3 col-12 col-md-8 px-0 mx-auto" id="about-card">
@@ -72,27 +72,33 @@
                     </div>
                 <hr class="mb-2">
               </div> <!-- /about -->
-
+              
               <!-- services -->
-              <div class="col-sm-12 col-lg-12">
+              <div class="col-sm-12 col-md-6">
                 <h3 class="mb-3">Services</h3>
-                [Services goes here]
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cuts - Men's & Women's</li>
+                        <li class="list-group-item">Custom Coloring</li>
+                        <li class="list-group-item">Blowouts</li>
+                        <li class="list-group-item">Eyebrow Waxing</li>
+                        <li class="list-group-item">Beard Trimming</li>
+                    </ul>
                 <hr class="mb-2">
               </div><!-- /services -->
-            
+
+              <!-- products -->
+              <div class="col-sm-12 col-md-6">
+                <h3 class="mb-3">Products</h3>
+                [Products go here]
+                <hr class="mb-2">
+              </div> <!-- /products -->         
+              
               <!-- artists -->
               <div class="col-sm-12 col-lg-12">
                 <h3 class="mb-3">Artists</h3>
                 [Artist cards goes here]
                 <hr class="mb-2">
               </div> <!-- /artists -->
-
-              <!-- products -->
-              <div class="col-sm-12 col-lg-12">
-                <h3 class="mb-3">Products</h3>
-                [Products go here]
-                <hr class="mb-2">
-              </div> <!-- /products -->              
 
               <!-- contact form -->
               <div class="col-sm-12 col-lg-12">
@@ -106,8 +112,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>
