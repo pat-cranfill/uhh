@@ -3,8 +3,37 @@ body {
     padding-top: 40px;
 }
 
-.jumbotron {
+#social {
+    text-align: right;
+}
+
+.social-img {
+    width: 40px;
+    height: auto;
+}
+
+.navbar {
+    background-color: yellow;
+}
+
+.nav-link {
+    box-sizing: unset;
+    border-radius: 2px;
+}
+
+.jumbo {
     height: 100vh;
+    color: white;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.65), 
+            rgba(0, 0, 0, 0.65)), 
+            url(barber-chair.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
 }
 
 /* .title-container{
@@ -23,10 +52,6 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #bfbfbf;
-}
-
-#social {
-    text-align: right;
 }
 
 #about-card {
