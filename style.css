@@ -14,11 +14,18 @@ body {
 
 .navbar {
     background-color: yellow;
+    color: black;
+    font-weight: bold;
 }
 
 .nav-link {
     box-sizing: unset;
     border-radius: 2px;
+}
+
+.nav-icon {
+    width: 30px;
+    height: auto;
 }
 
 .jumbo {
