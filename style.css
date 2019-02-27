@@ -43,13 +43,6 @@ body {
     max-width: 1500px;
 }
 
-/* .title-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-} */
-
 #main-content {
     color: white;
 }

@@ -1,9 +1,9 @@
 $(document).ready(() => {
     $('#main-content').hide();
     $('.navbar').hide();
-    $('.jumbo').hide();
+    $('.jumbo-content').hide();
     $('.navbar').slideDown(1000);
-    $('.jumbo').slideDown(1000);
+    $('.jumbo-content').slideDown(1000);
     $('#main-content').show(2000);
 });
 
